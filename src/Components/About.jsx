@@ -23,20 +23,44 @@ const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+const description = `
+I am a dedicated and ambitious student pursuing my studies at Hong Kong Polytechnic University. With a strong work ethic and excellent communication abilities, I am driven by challenges and opportunities for personal growth. My proficiency in working both independently and collaboratively has been demonstrated by a consistent record of exceptional performance. I am eager to build a fulfilling career that embraces new challenges and promotes continuous learning.
+`;
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  // Front-end skills
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Responsive Web Design",
+  "Web Accessibility",
+  "User Experience (UX)",
+  "User Interface (UI)",
+  "Graphic Design",
+  "CSS Frameworks (Bootstrap, Tailwind CSS)",
+  "JavaScript Libraries & Frameworks (React, Angular, Vue.js)",
+  "Version Control (Git)",
+
+  // Back-end skills
+  "Server-side Programming Languages (Node.js, Python, Ruby, PHP, Java)",
+  "Database Management (MySQL, PostgreSQL, MongoDB)",
+  "API Design & Development (REST, GraphQL, gRPC)",
+  "Web Application Frameworks (Express.js, Django, Ruby on Rails, Laravel, Spring)",
+
+  // Additional skills
+  "Inclusive Design",
+  "Focus Group Testing",
+  "Mobile User Interfaces",
+  "Web Performance Optimization",
+  "Testing & Debugging (Unit, Integration, E2E Testing)",
+  "Deployment & Hosting (Heroku, AWS, Firebase)",
+  "Continuous Integration & Continuous Deployment (CI/CD)",
+  "Web Security Best Practices",
+  "Project Management & Agile Methodologies (Scrum, Kanban)",
 ];
 
 /**
@@ -45,7 +69,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems with creativity and innovation, leveraging my extensive full stack development experience. With a strong background in UI/UX design and knowledge of front-end and back-end technologies, I am dedicated to making technology accessible and user-friendly for all.";
 
 const About = () => {
   return (
